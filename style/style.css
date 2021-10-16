@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #737373;
+    letter-spacing: 0.2px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    letter-spacing: 0.2px;
+    
+}
+
+.container{
+    width: 1047px;
+    margin: 0 auto;
+   
+}
+header{
+    background-color: gray;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    height: 91px;
+    align-items: center;
+}
+.header__top a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+.logo a{
+    font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+}
+
+.menu{
+    width: 280px;
+}
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+}
+.menu__item a{
+    
+}
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.auth__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+height: 52px;
+background: #23A6F0;
+border-radius: 5px;
+}
+.header__content{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__info{
+    padding-top: 87px;
+}
+.header__info h1{
+    font-weight: 800;
+font-size: 58px;
+line-height: 80px;
+/* or 138% */
+max-width: 509px;
+
+}
+.info__text{
+    margin-top: 35px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+max-width: 376px;
+/* or 150% */
+
+letter-spacing: 0.2px;
+}
+.info__btns{
+    margin-top: 35px;
+
+}
+.info__btns a {
+    display: inline-block;
+    font-weight: bold;
+font-size: 14px;
+line-height: 52px;
+/* identical to box height, or 157% */
+
+text-align: center;
+
+padding: 0px 5px;
+border-radius: 37px;
+}
+
+.btn__get{
+    margin-right: 10px;
+    background: #23A6F0;
+    
+
+min-width: 187px;
+
+}
+.btn__learn{
+    border: 1px solid #FFFFFF;
+    min-width: 157px;
+
+}
+.header__img{
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+}
+.features{
+    text-align: center;
+    
+}
+.section__description{
+    
+    max-width: 470px;
+    text-align: center;
+    margin: 112px auto 0;
+}
+.section__title{
+    font-weight: bold;
+font-size: 40px;
+line-height: 57px;
+text-align: center;
+
+color: #252B42;
+margin-bottom: 10px;
+}
+
+
+.section__text{
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+.features__cards{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.cards__list{
+    display: flex;
+    justify-content: space-between;
+}
+.card__item{
+    text-align: center;
+    width: 240px;
+    height: 200px;
+}
+.card__item .item__number{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card__item .item__title{
+    font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+}
+.teams__list{
+    margin-bottom: 112px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.teams__item{
+    flex-grow: 1;
+    display: flex;
+
+}
+.teams__item:nth-child(1){
+    margin-right: 30px;
+}
+.teams__item__content{
+    padding: 40px 30px;
+}
+.team__name{
+    font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+color: #252B42;
+}
+.team__job{
+    font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+}
+.team__stars{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.team__text{
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+
