@@ -19,6 +19,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #737373;
     letter-spacing: 0.2px;
+    background: #FAFAFA;
     
 }
 
@@ -149,6 +150,7 @@ min-width: 187px;
     max-width: 470px;
     text-align: center;
     margin: 112px auto 0;
+    position: relative;
 }
 .section__title{
     font-weight: bold;
@@ -168,7 +170,7 @@ line-height: 20px;
 }
 .features__cards{
     margin-top: 80px;
-    margin-bottom: 80px;
+    padding-bottom: 55px;
     
 }
 .cards__list{
@@ -179,6 +181,12 @@ line-height: 20px;
     text-align: center;
     width: 240px;
     height: 200px;
+    background-color: #fff;
+    padding: 30px 33px;
+}
+.item__icon{
+    color: #23A6F0;
+    font-size: 38px;
 }
 .card__item .item__number{
     font-weight: bold;
@@ -194,7 +202,7 @@ font-size: 16px;
 line-height: 24px;
 }
 .teams__list{
-    margin-bottom: 112px;
+    padding-bottom: 112px;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -210,6 +218,7 @@ line-height: 24px;
 }
 .teams__item__content{
     padding: 40px 30px;
+    background-color: #fff;
 }
 .team__name{
     font-weight: bold;
@@ -231,4 +240,216 @@ line-height: 24px;
 font-size: 14px;
 line-height: 20px;
 }
+
+.about__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    padding-bottom: 112px;
+}
+.about__info{
+    margin-top: 60px;
+   width: 330px;
+}
+.about__info__heading{
+    font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+
+
+
+
+color: #252B42;
+}
+
+.about__info__text{
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+margin-top: 10px;
+padding-bottom: 30px;
+}
+
+.about__list__item{
+    margin-top: 30px;
+    padding-left: 52px;
+    position: relative;
+}
+.about__item__title{
+    font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #252B42;
+}
+.about__item__text{
+    font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+}
+.about__list__item::before, .about__list__item::after{
+    color: #23A6F0;
+    position: absolute;
+}
+.about__list__item::before{
+    top:5px;
+    left: 0px;
+}
+.about__list__item::after{
+    top:5px;
+    left: 0px;
+}
+.icon-cir, .icon-sq{
+    font-size: 23px;
+}
+
+.icon-mes:before {
+
+    font-size: 32px;
+    top: -3px;
+}
+.icon-com{
+    font-size: 10px;
+} 
+
+.icon-cir::after {
+   
+    top: -2px;
+}
+.icon-sq:before {
+  
+    left: 6px;
+}
+.icon-com::after {
+    
+    left: 8px;
+}
+
+.pricing__cards{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 112px;
+    
+
+}
+.pricing__card__item{
+    width: 339px;
+    border: 1px solid #23A6F0;
+border-radius: 10px;
+background-color: #fff;
+padding-top: 50px;
+padding-bottom: 50px;
+text-align: center;
+
+}
+.pricing__card__item:first-child{
+    margin-right: 30px;
+}
+.card__item__title{
+    font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+
+color: #252B42;
+}
+.card__item__text{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+}
+.card__item__price{
+    font-weight: bold;
+font-size: 40px;
+line-height: 57px;
+color: #23A6F0;
+position: relative;
+text-align: center;
+
+}
+.card__item__price::before{
+    content: '$';
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    top: 10px;
+    right: 137px;
+    
+    
+}
+.card__item__price::after{
+    content: 'Per Month';
+    position: absolute;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #8EC2F2;
+top: 30px;
+    right: 72px;
+
+}
+.card__item__list{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: left;
+    color: #252B42;
+    font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+margin-left: 80px;
+margin-right: 45px;
+}
+.card__item__list__item{
+    position: relative;
+    margin-bottom: 23px;
+
+}
+.card__item__btn{
+    font-weight: bold;
+font-size: 14px;
+line-height: 52px;
+color: #FFFFFF;
+
+
+display: inline-block;
+background: #23A6F0;
+border-radius: 5px;
+width: 280px;
+}
+.icon-ok::before{
+    position: absolute;
+    color: #fff;
+    background: #2DC071;
+    border-radius: 50%;
+    font-size: 11px;
+    width: 32px;
+    height: 32px;
+    left: -45px;
+    top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__item__list__item--bad {
+    position: relative;
+    margin-bottom: 23px;
+    
+}
+.card__item__list__item--bad::before{
+    background-color: #BDBDBD;
+}
+.contact-us{
+    
+    background-image: url("../img/cover.jpg") ;
+    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 460px;
+    margin-bottom: 368px;
+    
+}
+
 
