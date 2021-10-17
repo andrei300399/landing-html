@@ -49,13 +49,6 @@ header a {
     line-height: 24px;
 }
 
-
-/* .logo a {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-} */
-
 .logo {
     position: relative;
 }
@@ -710,5 +703,47 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .header__content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info__btns {
+        display: flex;
+        flex-direction: column;
+    }
+    .info__btns a {
+        margin-bottom: 30px;
+    }
+    .header__info {
+        margin: 0 auto;
+    }
+    .btn__get {
+        margin-right: 0;
+    }
+    .info__text {
+        margin: 0 auto;
+    }
+    .cards__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .teams__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .teams__item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .teams__img {
+        width: 340px;
+    }
+    .contact-us {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
