@@ -39,7 +39,7 @@ header a {
 .header__top {
     display: flex;
     justify-content: space-between;
-    height: 91px;
+    min-height: 91px;
     align-items: center;
 }
 
@@ -726,6 +726,9 @@ footer {
     }
     .contact-us__btn {
         width: 70%;
+    }
+    .header__info {
+        padding-top: 40px;
     }
 }
 
